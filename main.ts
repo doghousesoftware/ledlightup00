@@ -54,3 +54,4 @@ let oCounter = 0
 let iCounter = 0
 let gridSize = 0
 gridSize = 5
+basic.clearScreen()
