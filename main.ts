@@ -16,7 +16,7 @@ input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
     for (let index = 0; index < gridSize; index++) {
         iCounter = 0
-        for (let index = 0; index < 5; index++) {
+        for (let index = 0; index < gridSize; index++) {
             led.toggle(oCounter, iCounter)
             basic.pause(200)
             iCounter += 1
@@ -54,4 +54,3 @@ let oCounter = 0
 let iCounter = 0
 let gridSize = 0
 gridSize = 5
-basic.clearScreen()
